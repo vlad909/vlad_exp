@@ -1,0 +1,37 @@
+header {
+  background: colors.$primary_black;
+  height: 92px;
+
+  .header-body {
+    padding: 0 60px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .logo {
+      width: 62px;
+      height: 62px;
+    }
+
+    .owner {
+      color: colors.$primary_white;
+      font-weight: bold;
+      font-size: 2rem;
+    }
+
+    .anchors {
+      display: flex;
+
+      .header-link {
+        min-width: 50px;
+        width: auto;
+
+        a {
+          color: colors.$primary_white;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}

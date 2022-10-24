@@ -1,3 +1,8 @@
+@use "src/styles/colors";
+
+@import "styles/components/header";
+@import "styles/components/footer";
+@import "styles/components/body";
 .App {
   text-align: center;
 }

@@ -1,0 +1,29 @@
+.body-content {
+  background: colors.$main-background;
+
+  .projects {
+    display: flex;
+    justify-content: center;
+
+    .project {
+      display: flex;
+
+      .title-video {
+        display: block;
+
+        .title {
+          font-size: 1.7rem;
+          font-weight: 600;
+          text-align: left;
+          color: colors.$primary_white;
+          margin: 10px 0;
+        }
+
+        .video {
+          width: 100%;
+          max-width: 32rem;
+        }
+      }
+    }
+  }
+}
