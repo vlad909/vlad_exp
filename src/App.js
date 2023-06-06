@@ -4,6 +4,7 @@ import MainContent from "./components/mainContent";
 
 function App() {
     return (
+
         <div className="App">
             <AHeader/>
             <MainContent/>
